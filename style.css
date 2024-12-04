@@ -1,0 +1,92 @@
+*{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.section-01{
+    background-color: #1B1B1B;
+    height: 30px;
+    padding: 10px 200px;
+    overflow-y: hidden;
+    justify-content: space-between;
+    display: flex;
+}
+
+.text01{
+    display: flex;
+}
+.eng{
+    cursor: pointer;
+}
+.eng p{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.eng p:hover{
+    color: #0382BD; 
+}
+
+.eng a{
+    color: white;
+}
+.eng a:hover{
+    color: #0382BD; 
+}
+
+.usd{
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.usd p{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    display: inline-block;
+    font-size: 14px;
+}
+.usd p:hover{
+    color: #0382BD; 
+}
+
+.usd a{
+    color: white;
+}
+.usd a:hover{
+    color: #0382BD; 
+}
+
+.text01 .p3{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.over-menu ul{
+    list-style: none;
+}
+
+.over-menu ul li{
+    display: inline;
+    color: white;
+    font-size: 14px;
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.over-menu ul li:hover{
+    color: #0382BD; 
+}
+
+.over-menu ul li span{
+    color: #FCC904;
+    cursor: default;
+}
